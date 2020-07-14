@@ -88,15 +88,16 @@ DATABASES = {
     }
 }
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.mysql',
-#         'NAME': 'stackcopy',
-#         'HOST': 'localhost',
-#         'USER': "root",
-#         'PASSWORD': "traceon"
-#     }
-# }
+DATABASES = {
+    'default': {
+        'ENGINE': 'django.db.backends.postgresql_psycopg2',
+        'NAME': 'd7jq403bt6spua',
+        'USER': 'sgkhkksebunral',
+        'PASSWORD': 'd3c3ae1fe15462afa15361dd6b33bdfa159da88e704df6c673600c61db14427a',
+        'HOST': 'ec2-54-75-244-161.eu-west-1.compute.amazonaws.com',
+        'PORT': '5432',
+    }
+}
 
 # Password validation
 # https://docs.djangoproject.com/en/2.2/ref/settings/#auth-password-validators
